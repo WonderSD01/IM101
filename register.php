@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
-$host = 'sql311.infinityfree.com';           // Correct MySQL Hostname
-$username = 'if0_38590430';                 // Your MySQL Username
-$password = 'malabanan123456';              // Your MySQL Password
-$dbname = 'if0_38590430_test_db01';         // Your MySQL Database Name
+$host = 'sql311.infinityfree.com';
+$username = 'if0_38590430'; // Your MySQL Username
+$password = 'malabanan123456'; // Your MySQL Password
+$dbname = 'if0_38590430_test_db01'; // Your MySQL Database Name
 
 // Create a connection to the database
 $conn = new mysqli($host, $username, $password, $dbname);
@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Check if passwords match
     if ($password !== $confirm_password) {
-        echo "Passwords do not match!";
+        echo "Passwords do not match!<br>";
         exit();
     }
 
@@ -38,7 +38,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Execute query and check for success
     if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
+        // Successful registration, redirect to welcome page
+        session_start();
+        $_SESSION['username'] = $username; // Store username in session
+        header("Location: welcome.php"); // Redirect to welcome page
+        exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

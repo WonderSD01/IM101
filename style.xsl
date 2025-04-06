@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
@@ -132,11 +131,9 @@
                         <xsl:for-each select="HotelDataRecord/Reservations/Reservation">
                             <xsl:sort select="CheckIn" data-type="text" order="ascending"/>
                             <tr>
-                                <td>
-                                    <xsl:value-of select="format-number(position(), '00')"/>
-                                </td>
-                                <td><xsl:value-of select="Customer/Identity"/></td>
-                                <td><xsl:value-of select="Customer/Address"/></td>
+                                <td><xsl:value-of select="CustomerID"/></td>
+                                <td><xsl:value-of select="Name"/></td>
+                                <td><xsl:value-of select="Address"/></td>
                                 <td><xsl:value-of select="CheckIn"/></td>
                                 <td><xsl:value-of select="CheckOut"/></td>
                                 <td><xsl:value-of select="RoomType"/></td>
@@ -157,8 +154,8 @@
                         <xsl:for-each select="HotelDataRecord/Reservations/Reservation">
                             <xsl:if test="translate(RoomType, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'suite'">
                                 <tr>
-                                    <td><xsl:value-of select="format-number(position(), '00')"/></td>
-                                    <td><xsl:value-of select="Customer/Identity"/></td>
+                                    <td><xsl:value-of select="CustomerID"/></td>
+                                    <td><xsl:value-of select="Name"/></td>
                                     <td><xsl:value-of select="CheckIn"/></td>
                                     <td><xsl:value-of select="CheckOut"/></td>
                                 </tr>

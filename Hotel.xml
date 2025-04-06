@@ -180,136 +180,121 @@
 
     <Reservations>
         <Reservation>
-            <Customer>
-                <Identity>John Paul Maracio</Identity>
-                <Address>Batangas City, Batangas</Address>
-            </Customer>
+            <CustomerID>001</CustomerID>
+            <Name>John Paul Maracio</Name>
+            <Address>Batangas City, Batangas</Address>
             <CheckIn>2025-10-05</CheckIn>
             <CheckOut>2025-10-10</CheckOut>
             <RoomType>Double</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Eric Africa</Identity>
-                <Address>Lipa City, Batangas</Address>
-            </Customer>
+            <CustomerID>002</CustomerID>
+            <Name>Eric Africa</Name>
+            <Address>Lipa City, Batangas</Address>
             <CheckIn>2025-10-12</CheckIn>
             <CheckOut>2025-10-15</CheckOut>
             <RoomType>Suite</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Loise Juan</Identity>
-                <Address>Pasay, Manila</Address>
-            </Customer>
+            <CustomerID>003</CustomerID>
+            <Name>Loise Juan</Name>
+            <Address>Pasay, Manila</Address>
             <CheckIn>2025-11-05</CheckIn>
             <CheckOut>2025-11-10</CheckOut>
             <RoomType>Single</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Paula Mapalad</Identity>
-                <Address>Pampanga City</Address>
-            </Customer>
+            <CustomerID>004</CustomerID>
+            <Name>Paula Mapalad</Name>
+            <Address>Pampanga City</Address>
             <CheckIn>2025-10-15</CheckIn>
             <CheckOut>2025-10-20</CheckOut>
             <RoomType>Suite</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Nicole Sy</Identity>
-                <Address>Cebu City</Address>
-            </Customer>
+            <CustomerID>005</CustomerID>
+            <Name>Nicole Sy</Name>
+            <Address>Cebu City</Address>
             <CheckIn>2025-12-16</CheckIn>
             <CheckOut>2025-12-21</CheckOut>
             <RoomType>Double</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Paolo Bautista</Identity>
-                <Address>Batangas City, Batangas</Address>
-            </Customer>
+            <CustomerID>006</CustomerID>
+            <Name>Paolo Bautista</Name>
+            <Address>Batangas City, Batangas</Address>
             <CheckIn>2025-10-05</CheckIn>
             <CheckOut>2025-10-10</CheckOut>
             <RoomType>Double</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Erica Hall</Identity>
-                <Address>Lipa City, Batangas</Address>
-            </Customer>
+            <CustomerID>007</CustomerID>
+            <Name>Erica Hall</Name>
+            <Address>Lipa City, Batangas</Address>
             <CheckIn>2025-10-12</CheckIn>
             <CheckOut>2025-10-15</CheckOut>
             <RoomType>Suite</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Victoria Smith</Identity>
-                <Address>Pasay, Manila</Address>
-            </Customer>
+            <CustomerID>008</CustomerID>
+            <Name>Victoria Smith</Name>
+            <Address>Pasay, Manila</Address>
             <CheckIn>2025-11-05</CheckIn>
             <CheckOut>2025-11-10</CheckOut>
             <RoomType>Single</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Johnny Cao</Identity>
-                <Address>Pampanga City</Address>
-            </Customer>
+            <CustomerID>009</CustomerID>
+            <Name>Johnny Cao</Name>
+            <Address>Pampanga City</Address>
             <CheckIn>2025-10-15</CheckIn>
             <CheckOut>2025-10-20</CheckOut>
             <RoomType>Suite</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Mario Lee</Identity>
-                <Address>Cebu City</Address>
-            </Customer>
+            <CustomerID>010</CustomerID>
+            <Name>Mario Lee</Name>
+            <Address>Cebu City</Address>
             <CheckIn>2025-12-16</CheckIn>
             <CheckOut>2025-12-21</CheckOut>
             <RoomType>Double</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Lito Sy</Identity>
-                <Address>Batangas City, Batangas</Address>
-            </Customer>
+            <CustomerID>011</CustomerID>
+            <Name>Lito Sy</Name>
+            <Address>Batangas City, Batangas</Address>
             <CheckIn>2025-10-05</CheckIn>
             <CheckOut>2025-10-10</CheckOut>
             <RoomType>Double</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Ellie Malo</Identity>
-                <Address>Lipa City, Batangas</Address>
-            </Customer>
+            <CustomerID>012</CustomerID>
+            <Name>Ellie Malo</Name>
+            <Address>Lipa City, Batangas</Address>
             <CheckIn>2025-10-12</CheckIn>
             <CheckOut>2025-10-15</CheckOut>
             <RoomType>Suite</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Mercy Villa</Identity>
-                <Address>Pasay, Manila</Address>
-            </Customer>
+            <CustomerID>013</CustomerID>
+            <Name>Mercy Villa</Name>
+            <Address>Pasay, Manila</Address>
             <CheckIn>2025-11-05</CheckIn>
             <CheckOut>2025-11-10</CheckOut>
             <RoomType>Single</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Leo Macaraig</Identity>
-                <Address>Pampanga City</Address>
-            </Customer>
+            <CustomerID>014</CustomerID>
+            <Name>Lionel Lee</Name>
+            <Address>Pampanga City</Address>
             <CheckIn>2025-10-15</CheckIn>
             <CheckOut>2025-10-20</CheckOut>
             <RoomType>Suite</RoomType>
         </Reservation>
         <Reservation>
-            <Customer>
-                <Identity>Alejandro Sy</Identity>
-                <Address>Cebu City</Address>
-            </Customer>
+            <CustomerID>015</CustomerID>
+            <Name>Amy Harris</Name>
+            <Address>Cebu City</Address>
             <CheckIn>2025-12-16</CheckIn>
             <CheckOut>2025-12-21</CheckOut>
             <RoomType>Double</RoomType>

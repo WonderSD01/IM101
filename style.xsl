@@ -117,30 +117,30 @@
                     </table>
                 </div>
 
-                <h2>Reservations (Sorted by Check-In Date)</h2>
-                <div class="table-container">
-                    <table>
-                        <tr>
-                            <th>Customer ID</th>
-                            <th>Customer Name</th>
-                            <th>Address</th>
-                            <th>Check-In</th>
-                            <th>Check-Out</th>
-                            <th>Room Type</th>
-                        </tr>
-                        <xsl:for-each select="HotelDataRecord/Reservations/Reservation">
-                            <xsl:sort select="CheckIn" data-type="text" order="ascending"/>
-                            <tr>
-                                <td><xsl:value-of select="CustomerID"/></td>
-                                <td><xsl:value-of select="Name"/></td>
-                                <td><xsl:value-of select="Address"/></td>
-                                <td><xsl:value-of select="CheckIn"/></td>
-                                <td><xsl:value-of select="CheckOut"/></td>
-                                <td><xsl:value-of select="RoomType"/></td>
-                            </tr>
-                        </xsl:for-each>
-                    </table>
-                </div>
+                <h2>Reservations (Sorted by Customer ID)</h2>
+<div class="table-container">
+    <table>
+        <tr>
+            <th>Customer ID</th>
+            <th>Customer Name</th>
+            <th>Address</th>
+            <th>Check-In</th>
+            <th>Check-Out</th>
+            <th>Room Type</th>
+        </tr>
+        <xsl:for-each select="HotelDataRecord/Reservations/Reservation">
+            <xsl:sort select="CustomerID" data-type="number" order="ascending"/>
+            <tr>
+                <td><xsl:value-of select="CustomerID"/></td>
+                <td><xsl:value-of select="Name"/></td>
+                <td><xsl:value-of select="Address"/></td>
+                <td><xsl:value-of select="CheckIn"/></td>
+                <td><xsl:value-of select="CheckOut"/></td>
+                <td><xsl:value-of select="RoomType"/></td>
+            </tr>
+        </xsl:for-each>
+    </table>
+</div>
 
                 <h2>Filtered Reservations (Luxury Rooms Only)</h2>
                 <div class="table-container">
